@@ -1,0 +1,9 @@
+A more liberal autolink extension for python Markdown
+- inspired by Django's urlize function`
+
+Requires: http://pypi.python.org/pypi/Markdown
+
+
+
+
+
