@@ -9,14 +9,14 @@ def read(*paths):
 
 setup(
     name='markdown-urlize',
-    version='0.1.0',
+    version='0.2.0',
     description='A more liberal autolink extension for python Markdown',
     long_description=(read('README.md')),
     url='https://github.com/r0wb0t/markdown-urlize',
     license='BSD',
     author='Rowan Nairn',
     author_email='rnairn@gmail.com',
-    py_modules=['urlize'],
+    py_modules=['mdx_urlize'],
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
