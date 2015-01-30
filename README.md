@@ -3,7 +3,7 @@ A more liberal autolink extension for python Markdown
 
 Requires: http://pypi.python.org/pypi/Markdown
 
-To play nicely with Django, drop ``urlize.py`` into your PYTHONPATH or projects root directory as ``mdx_urlize.py`` for Django's Markup app to properly load this as an extension.
+To make this extension loadable by Mardown, just drop ``mdx_urlize.py`` into your PYTHONPATH or projects root.
 
 From http://stackoverflow.com/a/6553787/352452:
 
