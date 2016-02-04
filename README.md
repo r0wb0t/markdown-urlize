@@ -17,6 +17,6 @@ Or in Python code like this:
     md = markdown.Markdown(safe_mode=True, extensions=['urlize'])  
     converted_text = md.convert(text)  
 
-Here is the start of the [Markdown extension docs](http://www.freewisdom.org/projects/python-markdown/Extensions) in case you need more info.
+Here is the start of the [Markdown extension docs](http://pythonhosted.org/Markdown/extensions/index.html) in case you need more info.
 
 
