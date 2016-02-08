@@ -14,7 +14,7 @@ Once installed, you can use it in a Django template like this:
 Or in Python code like this:
 
     import markdown  
-    md = markdown.Markdown(safe_mode=True, extensions=['urlize'])  
+    md = markdown.Markdown(safe_mode=True, extensions=['urlize:UrlizeExtension'])  
     converted_text = md.convert(text)  
 
 Here is the start of the [Markdown extension docs](http://pythonhosted.org/Markdown/extensions/index.html) in case you need more info.
